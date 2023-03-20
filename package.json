@@ -1,0 +1,24 @@
+{
+  "name": "electronpiano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_ENV=development&&electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "bulma": "^0.9.4",
+    "electron-store": "^8.1.0"
+  }
+}
