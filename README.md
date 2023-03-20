@@ -1,5 +1,26 @@
-# to install and run
+# introductions
 
+this project are made to demo the functionality of electron js and basic HTML and JS to make a standalone desktop application that require minimum online interaction.
+
+## prerequisities
+
+1. npm
+2. node.js *these are nomally shipped together*
+## functionality demonstrated
+- [x] save user settings in local system *such as google map API keys, local storage directory, input/output directory*
+- [ ] ability to read/write csv
+- [ ] data processing
+- [ ] map implementation 
+  - [ ] search bar
+  - [ ] filters
+  - [ ] export preview
+  - [ ] export to file 
+- [ ] dynamic web components (*eg. single file navbar*) 
+- [ ] bulk address formatter (* might need to create npm functionality/package to enaable easy to read code.*)
+
+
+# to install and run
+## install
 ```bash
 npm install
 ```
