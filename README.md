@@ -1,4 +1,24 @@
-# Learning Documents
+# to install and run
+
+```bash
+npm install
+```
+## start dev environment
+```bash
+npm start
+```
+## start prod env 
+```bash
+npm run prod
+```
+
+## compile it into your system
+```bash
+    npm run make
+```
+
+learnmore about packaging at [electronjs.org](https://www.electronjs.org/docs/latest/tutorial/tutorial-packaging)
+# Learning Notes
 
 ## PreloadScript (preload.js)
 
